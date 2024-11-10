@@ -15,11 +15,13 @@ header{
     margin: 0 auto;
     font-family: 微軟正黑體;
 }
+
 .profile, .info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 img{
     margin: 0 auto;
     text-align: center;
@@ -32,6 +34,7 @@ img{
     border-radius: 50%;
     margin: 0px 10px 15px;
 }
+
 .profile-name {
     font-size: 22px;
     padding: 5px;
@@ -42,12 +45,14 @@ img{
     text-align: center;
     font-weight: bold;
 }
+
 .department {
     font-size: 18px;
     margin-bottom: 5px;
     border-radius: 15px;
     font-weight: bold;
 }
+
 .email {
     padding: 3px 10px;
     border-radius: 15px;
@@ -57,6 +62,7 @@ img{
     display: inline-block;
     font-family: 'Times New Roman';
 }
+
 nav{
     font-family: Arial;
     width: 100%;
@@ -66,6 +72,7 @@ nav{
     background-color: #3154a0;
     margin: 15px auto 10px;
 }
+
 nav a{
     display: inline-block;
     color:white;
@@ -75,6 +82,7 @@ nav a{
     width: 10%;
     padding: 20px;
 }
+
 nav a:hover{
     color: #ffab24;
     background-color: white;
@@ -128,6 +136,7 @@ h5{
     margin-bottom: 25px;
     margin-top: 8px;
 }
+
 h7{
     font-size: 16px;
     color: white;
@@ -142,10 +151,12 @@ h7{
     overflow: hidden;
     display: inline-block;
 }
+
 .lineup {
     height: 13px;
     background-color: #ffab24;
 }
+
 p{
     font-size: 16px;
     color: white;
@@ -161,9 +172,11 @@ li{
    font-size: 18px;
    margin: 30px 0px 3px 13px;
 }
+
 li a{
     color: white; 
- }
+}
+
 .liyellow{
     color: #ffab24;
     display: inline-block;
@@ -173,6 +186,7 @@ footer{
     float: right;
     margin-right: 0px;
 }
+
 footer a{
     background-color: #3154a0;
     color: white;
@@ -198,10 +212,9 @@ footer a:hover{
     width: 100%;
     }
 }
-@media screen and (max-width:1050px ) and (min-width: 900px) {
 
+@media screen and (max-width:1050px ) and (min-width: 900px) {
     .linedown{
         margin: 0px 0px 20px 30px;
     }
-      
 }
